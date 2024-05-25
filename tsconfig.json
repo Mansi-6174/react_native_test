@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "isolatedModules": false,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": false // Treat errors as warnings
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
+}
